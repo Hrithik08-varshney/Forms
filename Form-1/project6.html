@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="project6.css">
+</head>
+<body>
+    <div id="outside">
+        <form id="surveyform" action="project6.js" method="GET">
+            <h2 id="head"> APPLICATION FORM</h2>
+            <p><b>Note:</b> Form is to be completed at least 21 days prior to date</p>
+             <!-- ------------------Personal Details---------------------------- -->
+             <fieldset>
+                 <legend>PERSONAL DETAILS</legend>
+                 <div>
+                    <label id="name-label" for="name">Name:</label>
+                    <input type="text" required id="name" name="user_name" placeholder=" Enter name here ">
+                 </div>
+                 <div>
+                    <label id="address-label" for="address">Address:</label>
+                    <input type="Address" required id="address" name="Address" placeholder=" Enter address here ">
+                 </div>
+                 <div>
+                    <label id="email-label" for="Email">Email:</label>
+                    <input type="email" required id="Email" name="email" placeholder=" Enter email here ">
+                 </div>
+                 <div>
+                    <label id="number-label" for="phone">Phone Number:</label>
+                    <input type="number" required id="phone" name="number" placeholder=" Enter 10 digit number here ">
+                 </div>
+                 <div>
+                     Gender :
+                     <select name="Select" size="1">
+                         <option value="male">Male</option>
+                         <option value="female">Female</option>
+                         <option value="others">Others</option>
+                     </select>
+                 </div>
+                 <div>
+                     <label for="date-label" >Date Of Birth</label>
+                     <input type="date" name="bday">
+                 </div>
+             </fieldset>
+             <!-----------------------Checkboxes----------------------------------------------->
+             <fieldset>
+                 <div>
+                 <label>Check All That Apply</label>
+                 </div>
+                 <div>
+                       <input type="checkbox" name="Job" value="job exp"> Job Experience Upto One Year
+                 </div>
+                 <div>
+                       <input type="checkbox" name="degree" value="study"> Graduate
+                 </div>
+                 <div>
+                       <input type="checkbox" name="any" value="a"> Anything
+                 </div>
+                 <div>
+                    <input type="checkbox" name="English" value="lang"> Language Medium English
+              </div>
+             </fieldset>
+             <!------------------------RadioButtons----------------------------------------------->
+             <fieldset>
+                 <div>
+                     <label>Political Perspective</label>
+                 </div>
+                 <div>
+                    <input type="radio" name="Bjp" value="bhajpa"> BJP
+                 </div>
+                 <div>
+                    <input type="radio" name="papu" value="Congress"> Congress
+                 </div>
+                 <div>
+                    <input type="radio" name="jhadu" value="aam"> AAP
+                 </div>
+                 <div class="side">
+                    <label>Expected Salary (per month)</label>
+                </div>
+                <div class="side">
+                   <input type="radio" name="25" value="Salary"> Less than 25k
+                </div>
+                <div class="side">
+                   <input type="radio" name="25-50" value="Salary"> 25k-50k
+                </div>
+                <div class="side">
+                   <input type="radio" name="50" value="Salary"> 50k or above
+                </div>
+             </fieldset>
+             <!-------------------------------------------------TextArea------------------------------------------------------->
+             <fieldset>
+                 <legend> Eassy Section </legend>
+                 <div>
+                     <label> HOBBIES : </label>
+                     </div>
+                     <div>
+                     <textarea id="msg" name="user_message" rows="4" cols="50" placeholder="Enter Text Here"></textarea>
+                 </div>
+                 <div>
+                     <label>Upload Police Clearance Certificate, Bank Statement and Medical Certifiates here:  </label>
+                     <input type="file"/>
+                 </div>
+             </fieldset>
+             <div id="sub">
+             <input id="subcont" type="submit" value="submit"/>
+             </div>
+        </form>
+        </div>
+    </div>
+</body>
+</html>

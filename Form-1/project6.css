@@ -1,0 +1,41 @@
+body {
+    font-family: 'Anaheim';
+    font-size: 1.2em;
+  }
+
+#outside {
+    background-color: lightgoldenrodyellow;
+}
+
+#surveyform {
+    background-color: white;
+    
+}
+
+#head {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+form {
+    margin: auto;
+    width: 70%;
+    padding: 1em;
+    border: 1px solid #CCC;
+  border-radius: 1em;
+}
+fieldset{
+    width: 1000px;
+    border:1px solid lightgray;
+    margin: 10px;
+}
+div + div {
+    margin-top: 1em;
+    }
+#sub {
+    text-align: center;
+}
+#subcont {
+    background-color: burlywood;
+    font-size: 20px;
+}
