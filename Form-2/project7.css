@@ -1,0 +1,23 @@
+body {
+    background-color: cadetblue;
+    text-align: center;
+}
+
+#surveyform {
+    background-color: white;
+    width: 1100px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+div+div {
+    margin-top: 1em;
+}
+
+#button {
+    background-color:darkturquoise;
+}
+#num {
+    width: 20%;
+}
